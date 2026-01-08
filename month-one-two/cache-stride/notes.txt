@@ -32,3 +32,49 @@ Execution time = 85005ms
 
       85.007593000 seconds user
        0.296969000 seconds sys
+
+Machine-specific LLC counters (ARMv8 PMU on this host):
+- /sys/devices/system/cpu/cpu0/cache shows L1D, L1I, L2 unified only; no L3, so LLC == L2.
+- perf exposes last-level events as ll_cache_rd / ll_cache_miss_rd (not LLC-loads/LLC-load-misses).
+- Alternatives (closest to LLC-loads/misses here):
+  sudo perf stat -e ll_cache_rd,ll_cache_miss_rd,cache-references,cache-misses,instructions,cycles \
+    /home/ubuntu/.sdkman/candidates/java/current/bin/java Main 512 1 16
+- L2-specific equivalent:
+  sudo perf stat -e l2d_cache_rd,l2d_cache_refill,cache-references,cache-misses,instructions,cycles \
+    /home/ubuntu/.sdkman/candidates/java/current/bin/java Main 512 1 16
+
+=== below runs for oracle arm L2 Machine
+
+Execution time = 26932ms
+
+ Performance counter stats for '/home/ubuntu/.sdkman/candidates/java/current/bin/java Main 512 1 16':
+
+         148932477      ll_cache_rd
+         148039840      ll_cache_miss_rd
+       26131311366      cache-references
+          20207662      cache-misses                     #    0.08% of all cache refs
+      177275426403      instructions                     #    2.19  insn per cycle
+       80810797437      cycles
+
+      27.174344430 seconds time elapsed
+
+      26.959220000 seconds user
+       0.265870000 seconds sys
+
+=-=-
+
+Execution time = 86843ms
+
+ Performance counter stats for '/home/ubuntu/.sdkman/candidates/java/current/bin/java Main 512 129 16':
+
+       13020026762      ll_cache_rd
+       13018436814      ll_cache_miss_rd
+       26273588531      cache-references
+        4033703496      cache-misses                     #   15.35% of all cache refs
+      177710437918      instructions                     #    0.69  insn per cycle
+      256742564763      cycles
+
+      87.087960278 seconds time elapsed
+
+      86.857578000 seconds user
+       0.296251000 seconds sys
