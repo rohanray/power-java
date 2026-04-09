@@ -1,0 +1,200 @@
+{
+  "actual_message_count": 1000000,
+  "body_length_bytes": {
+    "max": 156,
+    "min": 55
+  },
+  "exclude_logon_logout": false,
+  "expected_message_count": 1000000,
+  "files": {
+    "meta": "/home/ubuntu/power-java/fix-related/data-gen/data-v4/meta.json",
+    "readable": "/home/ubuntu/power-java/fix-related/data-gen/data-v4/fix_messages.txt",
+    "wire": null
+  },
+  "invalid_applied_count": 0,
+  "invalid_messages": 0,
+  "invalid_percent": 0.0,
+  "invalid_reasons": {},
+  "invalid_target_count": 0,
+  "invalid_type_distribution": {
+    "bad_body_length": 0,
+    "bad_checksum": 0,
+    "missing_tag": 0
+  },
+  "invalid_types": [
+    "bad_checksum",
+    "bad_body_length",
+    "missing_tag"
+  ],
+  "message_count_ok": true,
+  "message_types": {
+    "0": 199438,
+    "5": 1,
+    "8": 200758,
+    "A": 1,
+    "D": 400299,
+    "H": 199503
+  },
+  "new_order_sides": {
+    "buy": 199911,
+    "sell": 200388
+  },
+  "output_dir": "/home/ubuntu/power-java/fix-related/data-gen/data-v4",
+  "seed": null,
+  "sequence_check": true,
+  "sequence_numbers": {
+    "max": 1000000,
+    "min": 1
+  },
+  "symbols": {
+    "AAPL": 79834,
+    "AMD": 79933,
+    "AMZN": 80341,
+    "AVGO": 80441,
+    "COST": 79328,
+    "GOOGL": 80083,
+    "META": 79763,
+    "MSFT": 80001,
+    "NVDA": 80307,
+    "TSLA": 80529
+  },
+  "tags": {
+    "10": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "108": {
+      "invalid_messages": 0,
+      "messages": 1,
+      "valid_messages": 1
+    },
+    "11": {
+      "invalid_messages": 0,
+      "messages": 599802,
+      "valid_messages": 599802
+    },
+    "14": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "150": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "151": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "17": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "21": {
+      "invalid_messages": 0,
+      "messages": 400299,
+      "valid_messages": 400299
+    },
+    "31": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "32": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "34": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "35": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "37": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "38": {
+      "invalid_messages": 0,
+      "messages": 601057,
+      "valid_messages": 601057
+    },
+    "39": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "40": {
+      "invalid_messages": 0,
+      "messages": 400299,
+      "valid_messages": 400299
+    },
+    "44": {
+      "invalid_messages": 0,
+      "messages": 400299,
+      "valid_messages": 400299
+    },
+    "49": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "52": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "54": {
+      "invalid_messages": 0,
+      "messages": 800560,
+      "valid_messages": 800560
+    },
+    "55": {
+      "invalid_messages": 0,
+      "messages": 800560,
+      "valid_messages": 800560
+    },
+    "56": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "6": {
+      "invalid_messages": 0,
+      "messages": 200758,
+      "valid_messages": 200758
+    },
+    "60": {
+      "invalid_messages": 0,
+      "messages": 400299,
+      "valid_messages": 400299
+    },
+    "8": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "9": {
+      "invalid_messages": 0,
+      "messages": 1000000,
+      "valid_messages": 1000000
+    },
+    "98": {
+      "invalid_messages": 0,
+      "messages": 1,
+      "valid_messages": 1
+    }
+  },
+  "valid_messages": 1000000,
+  "wire_mode": false
+}

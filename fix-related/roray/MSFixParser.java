@@ -186,7 +186,7 @@ public class MSFixParser {
     }
 
     public static void main(String[] args) {
-        System.out.println("Initializing Java FIX Parser (SWAR only)...");
+        IO.println("Initializing Java FIX Parser");
 
         FixVisitor noOpVisitor = new FixVisitor() {
             @Override

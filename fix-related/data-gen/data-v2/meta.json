@@ -1,0 +1,188 @@
+{
+  "actual_message_count": 10,
+  "body_length_bytes": {
+    "max": 150,
+    "min": 56
+  },
+  "expected_message_count": 10,
+  "files": {
+    "meta": "/home/ubuntu/power-java/fix-related/data-gen/data-v2/meta.json",
+    "readable": "/home/ubuntu/power-java/fix-related/data-gen/data-v2/fix_messages.txt",
+    "wire": "/home/ubuntu/power-java/fix-related/data-gen/data-v2/fix_messages_wire.txt"
+  },
+  "invalid_messages": 3,
+  "invalid_percent": 30.0,
+  "invalid_reasons": {
+    "body_length_mismatch": 2,
+    "checksum_mismatch": 1
+  },
+  "invalid_target_count": 3,
+  "invalid_type_distribution": {
+    "bad_body_length": 2,
+    "bad_checksum": 1,
+    "missing_tag": 0
+  },
+  "message_count_ok": true,
+  "message_types": {
+    "5": 1,
+    "8": 4,
+    "A": 1,
+    "D": 2,
+    "H": 2
+  },
+  "new_order_sides": {
+    "buy": 2,
+    "sell": 0
+  },
+  "output_dir": "/home/ubuntu/power-java/fix-related/data-gen/data-v2",
+  "seed": 1,
+  "sequence_numbers": {
+    "max": 10,
+    "min": 1
+  },
+  "symbols": {
+    "AMD": 2,
+    "AVGO": 2,
+    "NVDA": 2,
+    "TSLA": 2
+  },
+  "tags": {
+    "10": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "108": {
+      "invalid_messages": 0,
+      "messages": 1,
+      "valid_messages": 1
+    },
+    "11": {
+      "invalid_messages": 1,
+      "messages": 4,
+      "valid_messages": 3
+    },
+    "14": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "150": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "151": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "17": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "21": {
+      "invalid_messages": 1,
+      "messages": 2,
+      "valid_messages": 1
+    },
+    "31": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "32": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "34": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "35": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "37": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "38": {
+      "invalid_messages": 3,
+      "messages": 6,
+      "valid_messages": 3
+    },
+    "39": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "40": {
+      "invalid_messages": 1,
+      "messages": 2,
+      "valid_messages": 1
+    },
+    "44": {
+      "invalid_messages": 1,
+      "messages": 2,
+      "valid_messages": 1
+    },
+    "49": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "52": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "54": {
+      "invalid_messages": 3,
+      "messages": 8,
+      "valid_messages": 5
+    },
+    "55": {
+      "invalid_messages": 3,
+      "messages": 8,
+      "valid_messages": 5
+    },
+    "56": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "6": {
+      "invalid_messages": 2,
+      "messages": 4,
+      "valid_messages": 2
+    },
+    "60": {
+      "invalid_messages": 1,
+      "messages": 2,
+      "valid_messages": 1
+    },
+    "8": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "9": {
+      "invalid_messages": 3,
+      "messages": 10,
+      "valid_messages": 7
+    },
+    "98": {
+      "invalid_messages": 0,
+      "messages": 1,
+      "valid_messages": 1
+    }
+  },
+  "valid_messages": 7,
+  "wire_mode": true
+}

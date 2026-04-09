@@ -1,0 +1,194 @@
+{
+  "actual_message_count": 10,
+  "body_length_bytes": {
+    "max": 150,
+    "min": 56
+  },
+  "exclude_logon_logout": true,
+  "expected_message_count": 10,
+  "files": {
+    "meta": "/home/ubuntu/power-java/fix-related/data-gen/data-v3/meta.json",
+    "readable": "/home/ubuntu/power-java/fix-related/data-gen/data-v3/fix_messages.txt",
+    "wire": "/home/ubuntu/power-java/fix-related/data-gen/data-v3/fix_messages_wire.txt"
+  },
+  "invalid_applied_count": 3,
+  "invalid_messages": 4,
+  "invalid_percent": 30.0,
+  "invalid_reasons": {
+    "checksum_mismatch": 2,
+    "sequence_out_of_order": 2
+  },
+  "invalid_target_count": 3,
+  "invalid_type_distribution": {
+    "bad_checksum": 2,
+    "out_of_sequence": 1
+  },
+  "invalid_types": [
+    "bad_checksum",
+    "out_of_sequence"
+  ],
+  "message_count_ok": true,
+  "message_types": {
+    "5": 1,
+    "8": 4,
+    "A": 1,
+    "D": 2,
+    "H": 2
+  },
+  "new_order_sides": {
+    "buy": 2,
+    "sell": 0
+  },
+  "output_dir": "/home/ubuntu/power-java/fix-related/data-gen/data-v3",
+  "seed": 1,
+  "sequence_check": true,
+  "sequence_numbers": {
+    "max": 10,
+    "min": 1
+  },
+  "symbols": {
+    "AMD": 2,
+    "AVGO": 2,
+    "NVDA": 2,
+    "TSLA": 2
+  },
+  "tags": {
+    "10": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "108": {
+      "invalid_messages": 0,
+      "messages": 1,
+      "valid_messages": 1
+    },
+    "11": {
+      "invalid_messages": 1,
+      "messages": 4,
+      "valid_messages": 3
+    },
+    "14": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "150": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "151": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "17": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "21": {
+      "invalid_messages": 0,
+      "messages": 2,
+      "valid_messages": 2
+    },
+    "31": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "32": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "34": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "35": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "37": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "38": {
+      "invalid_messages": 3,
+      "messages": 6,
+      "valid_messages": 3
+    },
+    "39": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "40": {
+      "invalid_messages": 0,
+      "messages": 2,
+      "valid_messages": 2
+    },
+    "44": {
+      "invalid_messages": 0,
+      "messages": 2,
+      "valid_messages": 2
+    },
+    "49": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "52": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "54": {
+      "invalid_messages": 4,
+      "messages": 8,
+      "valid_messages": 4
+    },
+    "55": {
+      "invalid_messages": 4,
+      "messages": 8,
+      "valid_messages": 4
+    },
+    "56": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "6": {
+      "invalid_messages": 3,
+      "messages": 4,
+      "valid_messages": 1
+    },
+    "60": {
+      "invalid_messages": 0,
+      "messages": 2,
+      "valid_messages": 2
+    },
+    "8": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "9": {
+      "invalid_messages": 4,
+      "messages": 10,
+      "valid_messages": 6
+    },
+    "98": {
+      "invalid_messages": 0,
+      "messages": 1,
+      "valid_messages": 1
+    }
+  },
+  "valid_messages": 6,
+  "wire_mode": true
+}
