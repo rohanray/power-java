@@ -1,1 +1,8 @@
 fix-related/data-gen/data-v4/fix_messages.txt
+
+# Build outputs
+**/target/
+*.class
+
+# Runtime logs
+fix-related/roray/gc.log*
